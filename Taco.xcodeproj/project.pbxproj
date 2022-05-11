@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30E2F50282AAFF7001DED54 /* TacoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E2F4F282AAFF7001DED54 /* TacoApp.swift */; };
+		C30E2F52282AAFF7001DED54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E2F51282AAFF7001DED54 /* ContentView.swift */; };
+		C30E2F54282AAFF9001DED54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30E2F53282AAFF9001DED54 /* Assets.xcassets */; };
+		C30E2F57282AAFF9001DED54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30E2F56282AAFF9001DED54 /* Preview Assets.xcassets */; };
+		C30E2F60282AB4C3001DED54 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E2F5F282AB4C3001DED54 /* FrameView.swift */; };
+		C30E2F65282ABCD6001DED54 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E2F64282ABCD6001DED54 /* Camera.swift */; };
+		C30E2F67282ABCDF001DED54 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E2F66282ABCDF001DED54 /* Screen.swift */; };
+		C30E2F69282ABD0B001DED54 /* VideoInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E2F68282ABD0B001DED54 /* VideoInput.swift */; };
+		C30E2F6B282ABD47001DED54 /* BasicVideoComposers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30E2F6A282ABD47001DED54 /* BasicVideoComposers.swift */; };
+		C3A238D6282B10CD002A221D /* SCWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A238D5282B10CD002A221D /* SCWindowExtension.swift */; };
+		C3A238D8282B10FE002A221D /* CGImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A238D7282B10FE002A221D /* CGImageExtension.swift */; };
+		C3A238DA282BB116002A221D /* ScreenComposers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A238D9282BB116002A221D /* ScreenComposers.swift */; };
+		C3A238DC282BF6E3002A221D /* CameraComposers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A238DB282BF6E2002A221D /* CameraComposers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C30E2F4C282AAFF7001DED54 /* Taco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30E2F4F282AAFF7001DED54 /* TacoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoApp.swift; sourceTree = "<group>"; };
+		C30E2F51282AAFF7001DED54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C30E2F53282AAFF9001DED54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C30E2F56282AAFF9001DED54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C30E2F58282AAFF9001DED54 /* Taco.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Taco.entitlements; sourceTree = "<group>"; };
+		C30E2F5F282AB4C3001DED54 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		C30E2F61282AB9B3001DED54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C30E2F64282ABCD6001DED54 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		C30E2F66282ABCDF001DED54 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		C30E2F68282ABD0B001DED54 /* VideoInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInput.swift; sourceTree = "<group>"; };
+		C30E2F6A282ABD47001DED54 /* BasicVideoComposers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicVideoComposers.swift; sourceTree = "<group>"; };
+		C3A238D5282B10CD002A221D /* SCWindowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCWindowExtension.swift; sourceTree = "<group>"; };
+		C3A238D7282B10FE002A221D /* CGImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImageExtension.swift; sourceTree = "<group>"; };
+		C3A238D9282BB116002A221D /* ScreenComposers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenComposers.swift; sourceTree = "<group>"; };
+		C3A238DB282BF6E2002A221D /* CameraComposers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraComposers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C30E2F49282AAFF7001DED54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C30E2F43282AAFF7001DED54 = {
+			isa = PBXGroup;
+			children = (
+				C30E2F61282AB9B3001DED54 /* README.md */,
+				C30E2F4E282AAFF7001DED54 /* Taco */,
+				C30E2F4D282AAFF7001DED54 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		C30E2F4D282AAFF7001DED54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C30E2F4C282AAFF7001DED54 /* Taco.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C30E2F4E282AAFF7001DED54 /* Taco */ = {
+			isa = PBXGroup;
+			children = (
+				C3A238D4282B10BD002A221D /* Extensions */,
+				C30E2F63282ABCBC001DED54 /* VideoInputs */,
+				C30E2F62282ABCAD001DED54 /* VideoComposers */,
+				C30E2F5E282AB4B0001DED54 /* Views */,
+				C30E2F4F282AAFF7001DED54 /* TacoApp.swift */,
+				C30E2F53282AAFF9001DED54 /* Assets.xcassets */,
+				C30E2F58282AAFF9001DED54 /* Taco.entitlements */,
+				C30E2F55282AAFF9001DED54 /* Preview Content */,
+			);
+			path = Taco;
+			sourceTree = "<group>";
+		};
+		C30E2F55282AAFF9001DED54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C30E2F56282AAFF9001DED54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C30E2F5E282AB4B0001DED54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C30E2F51282AAFF7001DED54 /* ContentView.swift */,
+				C30E2F5F282AB4C3001DED54 /* FrameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C30E2F62282ABCAD001DED54 /* VideoComposers */ = {
+			isa = PBXGroup;
+			children = (
+				C30E2F6A282ABD47001DED54 /* BasicVideoComposers.swift */,
+				C3A238D9282BB116002A221D /* ScreenComposers.swift */,
+				C3A238DB282BF6E2002A221D /* CameraComposers.swift */,
+			);
+			path = VideoComposers;
+			sourceTree = "<group>";
+		};
+		C30E2F63282ABCBC001DED54 /* VideoInputs */ = {
+			isa = PBXGroup;
+			children = (
+				C30E2F68282ABD0B001DED54 /* VideoInput.swift */,
+				C30E2F64282ABCD6001DED54 /* Camera.swift */,
+				C30E2F66282ABCDF001DED54 /* Screen.swift */,
+			);
+			path = VideoInputs;
+			sourceTree = "<group>";
+		};
+		C3A238D4282B10BD002A221D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3A238D5282B10CD002A221D /* SCWindowExtension.swift */,
+				C3A238D7282B10FE002A221D /* CGImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C30E2F4B282AAFF7001DED54 /* Taco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30E2F5B282AAFF9001DED54 /* Build configuration list for PBXNativeTarget "Taco" */;
+			buildPhases = (
+				C30E2F48282AAFF7001DED54 /* Sources */,
+				C30E2F49282AAFF7001DED54 /* Frameworks */,
+				C30E2F4A282AAFF7001DED54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taco;
+			productName = Taco;
+			productReference = C30E2F4C282AAFF7001DED54 /* Taco.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C30E2F44282AAFF7001DED54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C30E2F4B282AAFF7001DED54 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C30E2F47282AAFF7001DED54 /* Build configuration list for PBXProject "Taco" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C30E2F43282AAFF7001DED54;
+			productRefGroup = C30E2F4D282AAFF7001DED54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C30E2F4B282AAFF7001DED54 /* Taco */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C30E2F4A282AAFF7001DED54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30E2F57282AAFF9001DED54 /* Preview Assets.xcassets in Resources */,
+				C30E2F54282AAFF9001DED54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C30E2F48282AAFF7001DED54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30E2F67282ABCDF001DED54 /* Screen.swift in Sources */,
+				C30E2F65282ABCD6001DED54 /* Camera.swift in Sources */,
+				C30E2F6B282ABD47001DED54 /* BasicVideoComposers.swift in Sources */,
+				C30E2F69282ABD0B001DED54 /* VideoInput.swift in Sources */,
+				C3A238D8282B10FE002A221D /* CGImageExtension.swift in Sources */,
+				C30E2F60282AB4C3001DED54 /* FrameView.swift in Sources */,
+				C3A238DA282BB116002A221D /* ScreenComposers.swift in Sources */,
+				C3A238DC282BF6E3002A221D /* CameraComposers.swift in Sources */,
+				C30E2F52282AAFF7001DED54 /* ContentView.swift in Sources */,
+				C30E2F50282AAFF7001DED54 /* TacoApp.swift in Sources */,
+				C3A238D6282B10CD002A221D /* SCWindowExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C30E2F59282AAFF9001DED54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C30E2F5A282AAFF9001DED54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C30E2F5C282AAFF9001DED54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Taco/Taco.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taco/Preview Content\"";
+				DEVELOPMENT_TEAM = J57TMJ577P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I need your camera.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.nonocast.Taco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C30E2F5D282AAFF9001DED54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Taco/Taco.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taco/Preview Content\"";
+				DEVELOPMENT_TEAM = J57TMJ577P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I need your camera.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.nonocast.Taco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C30E2F47282AAFF7001DED54 /* Build configuration list for PBXProject "Taco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30E2F59282AAFF9001DED54 /* Debug */,
+				C30E2F5A282AAFF9001DED54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30E2F5B282AAFF9001DED54 /* Build configuration list for PBXNativeTarget "Taco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30E2F5C282AAFF9001DED54 /* Debug */,
+				C30E2F5D282AAFF9001DED54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C30E2F44282AAFF7001DED54 /* Project object */;
+}
