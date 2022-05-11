@@ -1,4 +1,8 @@
-# CameraApp
+# TocaApp
+
+- MacOS 12.3, swift 5.6
+- 此代码用于公开学习
+- 视频(摄像头/屏幕)采集，编码，推流(rtmp)
 
 ## Version
 
